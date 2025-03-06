@@ -5,6 +5,7 @@ local plugins = {
     config = function() -- Mapping tab is already used in NvChad
       vim.g.copilot_no_tab_map = true; -- Disable tab mapping
       vim.g.copilot_assume_mapped = true; -- Assume that the mapping is already done
+      vim.g.copilot_tab_fallback = "";
       vim.g.copilot_proxy_strict_ssl = false;
     end
   },
